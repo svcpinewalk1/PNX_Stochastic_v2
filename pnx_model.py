@@ -143,11 +143,11 @@ class Simulation:
 
 #Username of your GitHub account
 
-username = 'o7shirePW'
+username = 'svcpinewalk1'
 
 # Personal Access Token (PAO) from your GitHub account
 
-token = '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'
+token = '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'
 
 # Creates a re-usable session object with your creds in-built
 
@@ -156,9 +156,15 @@ github_session = requests.Session()
 github_session.auth = (username, token)
 
 # Downloading the xlsx file from your GitHub
-exposure_url = "https://raw.githubusercontent.com/o7shirePW/PNX_Stochastic/main/Exposure%20Table.xlsx"
-portfolio_url = "https://raw.githubusercontent.com/o7shirePW/PNX_Stochastic/main/Pernix%20Data.xlsx"
-Transition_url = "https://raw.githubusercontent.com/o7shirePW/PNX_Stochastic/main/Transition_Table.xlsx"
+
+exposure_url = "https://github.com/svcpinewalk1/PNX_Stochastic_v2/blob/197e2e6400e47491dce05cd94052c6dea2ade441/Exposure%20Table.xlsx"
+#  "https://raw.githubusercontent.com/o7shirePW/PNX_Stochastic/main/Exposure%20Table.xlsx"
+
+portfolio_url = "https://github.com/svcpinewalk1/PNX_Stochastic_v2/blob/197e2e6400e47491dce05cd94052c6dea2ade441/Pernix%20Data.xlsx"
+# "https://raw.githubusercontent.com/o7shirePW/PNX_Stochastic/main/Pernix%20Data.xlsx"
+
+Transition_url = "https://github.com/svcpinewalk1/PNX_Stochastic_v2/blob/main/Transition_Table.xlsx"
+#"https://raw.githubusercontent.com/o7shirePW/PNX_Stochastic/main/Transition_Table.xlsx"
 
 
 Transition_download = github_session.get(Transition_url).content
