@@ -157,13 +157,13 @@ github_session.auth = (username, token)
 
 # Downloading the xlsx file from your GitHub
 
-exposure_url = "https://github.com/svcpinewalk1/PNX_Stochastic_v2/blob/197e2e6400e47491dce05cd94052c6dea2ade441/Exposure%20Table.xlsx"
+exposure_url = "https://raw.githubusercontent.com/svcpinewalk1/PNX_Stochastic_v2/main/Exposure%20Table.xlsx"
 #  "https://raw.githubusercontent.com/o7shirePW/PNX_Stochastic/main/Exposure%20Table.xlsx"
 
-portfolio_url = "https://github.com/svcpinewalk1/PNX_Stochastic_v2/blob/197e2e6400e47491dce05cd94052c6dea2ade441/Pernix%20Data.xlsx"
+portfolio_url = "https://raw.githubusercontent.com/svcpinewalk1/PNX_Stochastic_v2/main/Pernix%20Data.xlsx"
 # "https://raw.githubusercontent.com/o7shirePW/PNX_Stochastic/main/Pernix%20Data.xlsx"
 
-Transition_url = "https://github.com/svcpinewalk1/PNX_Stochastic_v2/blob/main/Transition_Table.xlsx"
+Transition_url = "https://raw.githubusercontent.com/svcpinewalk1/PNX_Stochastic_v2/main/Transition_Table.xlsx"
 #"https://raw.githubusercontent.com/o7shirePW/PNX_Stochastic/main/Transition_Table.xlsx"
 
 
